@@ -92,3 +92,20 @@ input[type=search]::-webkit-search-cancel-button{
     height: 20px;
     align-items: center;
 }
+input[type=submit]{
+    background-color: #f8f9fa;
+    background-image: -webkit-linear-gradient(top,#f8f9fa,#f8f9fa);
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+}
+input[type=submit]:focus{
+    outline-color: cornflowerblue;
+}
