@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    <link href="searchpage.css" rel="stylesheet">
     <body>
         <!--Navigation Bar-->
         <!--First row contains: Google Logo, Search Bar, 
@@ -8,22 +9,22 @@
         <!--Second row contains: Selection(All, Maps, News, Videos, Images, More)
             Settings, Tools
         -->
-        <nav>
-            <div>
-                <img src='https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png'/>
+        <nav id='nav-bar'>
+            <div id='first-row'>
+                <img id='logo-image' src='https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png'/>
                 <div id='search-bar'>
-                    </div>
                     <div><input type='search'></div>
                     <div><i class="material-icons">micro</i></div>
                     <div><i class="material-icons">search</i>
                 </div>
-                <ul>
+                <ul id='apps-account'>
                     <li><a><i class="material-icons">apps</i></a></li>
                     <li><a><i class="material-icons">face</i></a></li>
                 </ul>
+                </div>
             </div>
-            <div>
-                <ul>
+                <div id='second-row'>
+                <ul id='search-type'>
                     <li><a><i class="material-icons">search</i>All</a></li>
                     <li><a><i class="material-icons">place</i>Maps</a></li>
                     <li><a><i class="material-icons">article</i>News</a></li>
