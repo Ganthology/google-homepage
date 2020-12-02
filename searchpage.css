@@ -1,5 +1,6 @@
-html {
-    font-family: arial,sans-serif;
+:root {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
 }
 @font-face {
     font-family: 'Material Icons';
@@ -36,24 +37,30 @@ html {
     /* Support for IE. */
     font-feature-settings: 'liga';
 }
-#nav-bar{
+.nav-bar{
     position: fixed;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
-#nav-bar ul{
+.nav-bar ul{
     list-style: none;
 }
-#first-row{
+.first-row{
     display: flex;
     justify-content: flex-start;
 }
-#second-row{
+.first-row:last-child{
+    margin-left: auto;
+}
+.second-row{
     display: flex;
     justify-content: flex-start;
 }
-#search-bar{
+.search-bar{
     display: flex;
     flex-direction: row;
     background: white;
@@ -63,11 +70,11 @@ html {
     height: 45px;
     border: 2px solid;
 }
-#apps-account{
+.apps-account{
     display: flex;
     justify-content: flex-end;
 }
-#search-type{
+.search-type{
     display: flex;
     justify-content: flex-start;
 }
