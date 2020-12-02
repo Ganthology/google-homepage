@@ -17,7 +17,7 @@
     font-family: 'Material Icons';
     font-weight: normal;
     font-style: normal;
-    font-size: 24px;  /* Preferred icon size */
+    font-size: 16px;  /* Preferred icon size */
     display: inline-block;
     line-height: 1;
     text-transform: none;
@@ -25,6 +25,7 @@
     word-wrap: normal;
     white-space: nowrap;
     direction: ltr;
+
   
     /* Support for all WebKit browsers. */
     -webkit-font-smoothing: antialiased;
@@ -62,7 +63,9 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    align-self: start;
     height: 50px;
+    width: 660px;
     margin-top: 70px;
     margin-left: 169px;
 }
@@ -146,4 +149,33 @@ input[type=search]::-webkit-search-cancel-button{
     justify-content: flex-start;
     margin: 0;
     padding: 0;
+    align-items: center;
+}
+.second-row li{
+    display: flex;
+    padding: 16px 12px 12px 10px;
+    height: 16px;
+    line-height: 16px;
+    margin: 11px 1px 0;
+    color: #70757a;
+    font-size: 13px;
+    text-align: center;
+    align-items: center;
+}
+.second-row a{
+    display: flex;
+}
+.second-row i{
+    margin-right: 3px;
+}
+.second-row span{
+    align-items: center;
+    margin-bottom: 5px;
+}
+ul.search-type li:active{
+    border-bottom: 3px solid #1a73e8;
+    color: #1a73e8;
+}
+div.settings-tools {
+    margin-left: auto;
 }
