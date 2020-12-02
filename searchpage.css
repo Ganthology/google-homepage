@@ -202,8 +202,9 @@ div.settings-tools {
     display: flex;
     color: #70757a;   
 }
+/*START RESULTS CARD*/
 .results-card{
-    margin-top: 28px;
+    margin-top: 30px;
 }
 .results-card span {
     color: #70757a;
@@ -231,3 +232,5 @@ div.settings-tools {
 .results-card#first{
     margin-top: 10px;
 }
+/*END RESULTS CARD*/
+/*PEOPLE ALSO ASK*/
