@@ -51,7 +51,8 @@
 }
 .first-row{
     display: flex;
-    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
 }
 .first-row:last-child{
     margin-left: auto;
@@ -70,12 +71,22 @@
     height: 45px;
     border: 2px solid;
 }
+.search-bar-end{
+    margin-left: auto;
+    padding: 30px;
+}
 .apps-account{
     display: flex;
-    justify-content: flex-end;
+}
+.apps-account li{
+    padding: 4px;
 }
 .search-type{
     display: flex;
     justify-content: flex-start;
 }
-
+@media screen and (max-width: 1200px) {
+    .apps-account {
+        display: none;
+    }
+}
