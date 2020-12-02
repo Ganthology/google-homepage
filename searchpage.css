@@ -38,11 +38,11 @@
     font-feature-settings: 'liga';
 }
 .nav-bar{
-    position: fixed;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 100%;
+    width: 100vw;
+    height: 120px;
     margin: 0;
     padding: 0;
 }
@@ -50,16 +50,23 @@
     list-style: none;
 }
 .first-row{
+    position: fixed;
     display: flex;
     flex-direction: row;
     align-items: center;
-}
-.first-row:last-child{
-    margin-left: auto;
+    height: 70px;
+    width: 100vw;
 }
 .second-row{
     display: flex;
     justify-content: flex-start;
+    height: 50px;
+    width: 100vw;
+    margin-top: 70px;
+}
+.logo-image{
+    width: 92px;
+    height: 30px;
 }
 .search-bar{
     display: flex;
@@ -73,7 +80,7 @@
 }
 .search-bar-end{
     margin-left: auto;
-    padding: 30px;
+    padding: 0 30px;
 }
 .apps-account{
     display: flex;
