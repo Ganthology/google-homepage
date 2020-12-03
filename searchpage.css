@@ -414,3 +414,44 @@ tr {
   .pager-next {
     margin-left: 53px;
   }
+  /*FOOTER SECTION*/
+footer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0%;
+    margin: 0;
+    width: 100%;
+    margin-left: 0;
+    background: #f2f2f2;
+    min-width: 1200px;
+    border-top: 1px solid #dadce0;
+    font-size: 14px;
+}
+footer ul{
+    display: flex;
+    list-style: none;
+}
+.location{
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+    border-bottom: 1px solid #dadce0;
+    color: rgba(0,0,0,.54);
+    padding-left: 140px;
+}
+.area{
+    color: #3c4043;
+}
+
+.Bar2{
+    border-left: 1px solid #dadce0;
+    height: 65%;
+    width: 1px;
+}
+.terms{
+    display: flex;
+    flex-direction: row;
+    color: rgba(0,0,0,.54);
+    padding-left: 140px;
+}
