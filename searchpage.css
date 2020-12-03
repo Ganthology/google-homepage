@@ -271,3 +271,49 @@ div.settings-tools {
 .question#last{
     border-bottom: 1px solid #ecedef;
 }
+/*PEOPLE ALSO SEARCH*/
+.people-also-search{
+    margin-top: 25px;
+}
+.people-also-search h1{
+    font-family: 'Open Sans',arial,sans-serif;
+    display: block;
+    color: #202124;
+    font-size: 22px;
+    font-weight: normal;
+    text-align: left;
+    line-height: 1.182;
+    margin: 0%;
+    padding-bottom: 12px;
+}
+.also-search-table{
+    display: block;
+}
+.also-search{
+    display: flex;
+    justify-content: flex-start;
+    border-top: 1px solid #ecedef;
+    cursor: pointer;
+    color: #202124;
+    font-size: 18px;
+    font-family: arial,sans-serif;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    align-items: center;
+}
+.also-search i{
+    font-size: 24px;
+}
+#related{
+    font-size: 40px;
+    padding-right: 10px;
+}
+.also-search i:last-child{
+    margin-left: auto;
+}
+.also-search#last{
+    border-bottom: 1px solid #ecedef;
+    margin-bottom: 40px;
+}
