@@ -234,3 +234,40 @@ div.settings-tools {
 }
 /*END RESULTS CARD*/
 /*PEOPLE ALSO ASK*/
+.people-also-ask{
+    margin-top: 25px;
+}
+.people-also-ask h1{
+    font-family: 'Open Sans',arial,sans-serif;
+    display: block;
+    color: #202124;
+    font-size: 22px;
+    font-weight: normal;
+    text-align: left;
+    line-height: 1.182;
+    margin: 0%;
+    padding-bottom: 12px;
+}
+.also-ask-table{
+    display: block;
+}
+.question{
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #ecedef;
+    cursor: pointer;
+    color: #202124;
+    font-size: 18px;
+    font-family: arial,sans-serif;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+.question i{
+    margin-left: auto;
+    font-size: 24px;
+}
+.question#last{
+    border-bottom: 1px solid #ecedef;
+}
