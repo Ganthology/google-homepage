@@ -309,6 +309,7 @@ div.settings-tools {
 #related{
     font-size: 40px;
     padding-right: 10px;
+    color: cornflowerblue;
 }
 .also-search i:last-child{
     margin-left: auto;
@@ -332,7 +333,7 @@ div.settings-tools {
     margin: 0%;
 }
 .related-list{
-    margin: 0 50px 30px 0;
+    margin: 0 50px 10px 0;
     padding: 0;
     list-style: none;
 }
@@ -348,3 +349,52 @@ div.settings-tools {
     text-decoration: none;
     color: #1a0dab;
 }
+/*GOOOOOGLE SECTION*/
+.pager {
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+tr {
+    vertical-align: top;
+}
+.pager-td {
+    padding: 0;
+    text-align: center;
+}
+.pager-td a {
+    color: #4285f4;
+}
+.pager-td a:hover {
+    text-decoration: underline;
+}
+.pager-G {
+    display: block;
+    background: url(https://mooniidev.github.io/google-search-results-page/images/google-pager.webp) no-repeat;
+    background-position: -24px 0;
+    width: 28px;
+    height: 40px;
+  }
+  .pager-red-o {
+    display: block;
+    background: url(https://mooniidev.github.io/google-search-results-page/images/google-pager.webp) no-repeat;
+    background-position: -53px 0;
+    width: 20px;
+    height: 40px;
+  }
+  .pager-yellow-o {
+    display: block;
+    background: url(https://mooniidev.github.io/google-search-results-page/images/google-pager.webp) no-repeat;
+    background-position: -74px 0;
+    width: 20px;
+    height: 40px;
+  }
+  .pager-gle {
+    display: block;
+    background: url(https://mooniidev.github.io/google-search-results-page/images/google-pager.webp) no-repeat;
+    background-position: -96px 0;
+    width: 71px;
+    height: 40px;
+  }
+  .pager-next {
+    margin-left: 53px;
+  }
