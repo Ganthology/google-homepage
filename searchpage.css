@@ -17,7 +17,7 @@
     font-family: 'Material Icons';
     font-weight: normal;
     font-style: normal;
-    font-size: 16px;  /* Preferred icon size */
+    font-size: 24px;  /* Preferred icon size */
     display: inline-block;
     line-height: 1;
     text-transform: none;
@@ -105,6 +105,9 @@
 .search-bar li{
     margin-left: 15px;
 }
+.search-bar.material-icons{
+    font-size: 24px;
+}
 .search-bar-end{
     margin-left: auto;
     padding: 0 30px;
@@ -175,6 +178,7 @@ input[type=search]::-webkit-search-cancel-button{
 }
 .second-row i{
     margin-right: 3px;
+    font-size: 16px;
 }
 .second-row span{
     align-items: center;
@@ -186,6 +190,12 @@ ul.search-type li:active{
 }
 div.settings-tools {
     margin-left: auto;
+}
+.settings-tools a{
+    padding: 5px;
+}
+.settings-tools a:hover{
+    border: 1px solid #dfe1e5;
 }
 /*END SECOND ROW SECTION*/
 /*END NAVIGATION BAR*/
@@ -204,7 +214,7 @@ div.settings-tools {
 }
 /*START RESULTS CARD*/
 .results-card{
-    margin-top: 30px;
+    margin-top: 26px;
 }
 .results-card span {
     color: #70757a;
@@ -228,6 +238,12 @@ div.settings-tools {
 .results-card p{
     margin: 0;
     color: #70757a;
+}
+#url{
+    padding-bottom: 4px;
+}
+#desc{
+    padding-top: 5px;
 }
 .results-card#first{
     margin-top: 10px;
