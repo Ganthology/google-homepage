@@ -148,6 +148,10 @@ input[type=search]::-webkit-search-cancel-button{
 .apps-account i{
     font-size: 24px;
 }
+.apps-account a{
+    text-decoration: none;
+    color: #202124;
+}
 @media screen and (max-width: 1200px) {
     .apps-account {
         display: none;
@@ -473,4 +477,11 @@ footer ul{
 }
 .terms li{
     padding-right: 27px;
+}
+.terms a{
+    text-decoration: none;
+    color: rgba(0,0,0,.54);
+}
+.terms a:hover{
+    color: #202124;
 }
